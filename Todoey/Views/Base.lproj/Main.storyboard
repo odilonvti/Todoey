@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--Lista de tarefas-->
         <scene sceneID="I6K-R2-qg0">
             <objects>
                 <tableViewController id="TGN-tM-BXG" customClass="TodoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                             <outlet property="delegate" destination="TGN-tM-BXG" id="aWH-Qo-eoH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Title" id="ciC-fI-gG5">
+                    <navigationItem key="navigationItem" title="Lista de tarefas" id="ciC-fI-gG5">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dhW-69-HuI">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
